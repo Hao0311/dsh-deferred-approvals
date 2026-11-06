@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Deferred Approvals",
+    "description": "Pending approvals stay answerable while the model keeps working; approve later, retry the original call, and allow same-class requests for this conversation."
+  }
+}
