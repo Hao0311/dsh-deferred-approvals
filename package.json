@@ -1,0 +1,48 @@
+{
+  "name": "dsh-deferred-approvals",
+  "version": "0.3.1",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "approvals.js",
+    "timed.js",
+    "client.js",
+    "cordis.patch.yml",
+    "check-preset-drift.mjs",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "description": "Non-blocking interactions for DeepSeek Harness: approval requests park as pending items while the model keeps working (approve later, retry once), and ask_user_question runs in timed mode so a question never blocks the turn.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "approval",
+    "permission",
+    "non-blocking",
+    "questions",
+    "preset"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}
