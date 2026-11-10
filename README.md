@@ -52,7 +52,11 @@
 
 ## 安装
 
-在工作区目录 `plugins/dsh-deferred-approvals` 下，通过 `plugin_manager` 的 `install_bundle`
+```sh
+dsh plugin --profile web add github:Hao0311/dsh-deferred-approvals
+```
+
+开发时也可在工作区目录 `plugins/dsh-deferred-approvals` 下，通过 `plugin_manager` 的 `install_bundle`
 以该绝对目录为 target 安装。安装后 Client 半会自动加载；Host 半的源码修改需要重启 DSH 才生效
 （进程内已 import 的模块不会热替换，除非开启 HMR 源码监听）。
 
