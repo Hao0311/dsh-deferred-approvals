@@ -48,7 +48,7 @@ native approval, it does nothing and never raises the session policy on its own
 ## Install
 
 ```sh
-dsh plugin --profile web add dsh-deferred-approvals
+dsh plugin --profile web add github:Hao0311/dsh-deferred-approvals
 ```
 
 ## Notes
