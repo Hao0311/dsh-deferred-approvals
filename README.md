@@ -53,7 +53,7 @@
 ## 安装
 
 ```sh
-dsh plugin --profile web add github:Hao0311/dsh-deferred-approvals
+dsh plugin --profile web add dsh-deferred-approvals
 ```
 
 开发时也可在工作区目录 `plugins/dsh-deferred-approvals` 下，通过 `plugin_manager` 的 `install_bundle`
@@ -148,7 +148,7 @@ Non-blocking approvals and timed questions: permission requests park as pending 
 Install:
 
 ```sh
-dsh plugin --profile web add github:Hao0311/dsh-deferred-approvals
+dsh plugin --profile web add dsh-deferred-approvals
 ```
 
 Listed on the [awesome-dsh-plugin market](https://awesome-dsh-plugin.com/p/Hao0311/dsh-deferred-approvals/).
