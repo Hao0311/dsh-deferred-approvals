@@ -138,3 +138,17 @@ node check-preset-drift.mjs --regenerate
 ### 卸载
 
 `plugin_manager` 的 `remove_bundle`（target 为 `dsh-deferred-approvals`）：审批与定时提问一起恢复原生行为。
+
+---
+
+## English / 英文简介
+
+Non-blocking approvals and timed questions: permission requests park as pending items while the model keeps working and the approved call can be retried, and ask_user_question runs in timed mode (20 s) through an override of the whole standard agent preset that applies to new sessions after a restart.
+
+Install:
+
+```sh
+dsh plugin --profile web add github:Hao0311/dsh-deferred-approvals
+```
+
+Listed on the [awesome-dsh-plugin market](https://awesome-dsh-plugin.com/p/Hao0311/dsh-deferred-approvals/).
