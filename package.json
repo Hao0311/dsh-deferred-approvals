@@ -3,6 +3,14 @@
   "version": "0.3.1",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://awesome-dsh-plugin.com/p/Hao0311/dsh-deferred-approvals/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hao0311/dsh-deferred-approvals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hao0311/dsh-deferred-approvals/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -26,6 +34,7 @@
   "keywords": [
     "dsh",
     "dsh-plugin",
+    "deepseek-harness",
     "approval",
     "permission",
     "non-blocking",
