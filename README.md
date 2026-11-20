@@ -152,3 +152,14 @@ dsh plugin --profile web add github:Hao0311/dsh-deferred-approvals
 ```
 
 Listed on the [awesome-dsh-plugin market](https://awesome-dsh-plugin.com/p/Hao0311/dsh-deferred-approvals/).
+
+
+---
+
+## 同作者的其它插件 / More from the same author
+
+- [dsh-mimo-tts](https://github.com/Hao0311/dsh-mimo-tts) — MiMo 语音合成 · 一键朗读回答
+- [dsh-toolbox](https://github.com/Hao0311/dsh-toolbox) — 连接状态 / 测速 / 体检工具箱
+- [dsh-price-badge](https://github.com/Hao0311/dsh-price-badge) — 输入框峰谷价徽标
+- [dsh-sidebar-tidy](https://github.com/Hao0311/dsh-sidebar-tidy) — 侧边栏精简
+- [dsh-model-price](https://github.com/Hao0311/dsh-model-price) — 模型侧峰谷时间杆
